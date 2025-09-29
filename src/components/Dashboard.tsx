@@ -179,14 +179,14 @@ const Dashboard: React.FC = () => {
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
-      title: 'Explore Health Tools',
+      title: 'Digital Care Center',
       description: 'Discover apps and platforms for affordable healthcare, fitness, and nutrition.',
       icon: Smartphone,
       action: () => navigate('/tools'),
       gradient: 'from-teal-500 to-green-500',
     },
     {
-      title: 'Mental Health & Well-being',
+      title: 'Mental Health & Well-being Resources',
       description: 'Access articles, exercises, and resources for your well-being.',
       icon: BrainCircuit,
       action: () => navigate('/mental-health'),
