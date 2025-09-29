@@ -66,9 +66,16 @@ export function AboutMe() {
 
           {/* Info */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
               Hi, I'm <span className="bg-gradient-to-r from-gray-800 to-gray-600 text-transparent bg-clip-text">Maaz HM</span>
             </h1>
+
+            {/* Co-founder */}
+            <p className="bg-gradient-to-r from-gray-800 to-gray-600 text-transparent bg-clip-text mb-3">
+							  Co-founder of
+							    TrioAlchemy
+							</p>
+
             <p className="text-gray-700 leading-relaxed mb-5">
               I'm passionate about building modern web applications, integrating real-time features, 
               and exploring AI tools. Currently working on web projects with Supabase 
@@ -98,7 +105,7 @@ export function AboutMe() {
             <ul className="space-y-3">
               {skills.map((skill, index) => (
                 <li key={index} className="flex items-center gap-3">
-                  <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text flex-shrink-0" />
                   <span className="text-gray-700">{skill}</span>
                 </li>
               ))}
@@ -131,4 +138,5 @@ export function AboutMe() {
     </motion.div>
   );
 }
+
 export default AboutMe;
